@@ -1,5 +1,2 @@
 # Stochastic Simulation
-Here are the two scripts necessary to generate the comutational results found in the main text.
-Stochastic_simulation.py will be run first to execute the stochastic differential equations and generate the data simulating one master regulator
-and 5 downstream genes with a control. The parameter varied (Promoter strenght, Hill coefficient or Binding affinity) will be indicated in this script.
-After that, the graphs will be generated using stochastic_simulation_graphing.py. The same parameters must be set for this to assure colusion between the analytical solutions and stochastic simulations.
+Here are the two scripts necessary to generate the computational results found in the main text. Stochastic_simulation.py will be run first to execute the stochastic differential equations and generate the data simulating one master regulator and 5 downstream genes with a control. The parameter varied (Promoter strength, Hill coefficient or Binding affinity) will be indicated in this script. After that, the graphs will be generated using stochastic_simulation_graphing.py. The same parameters must be set for this to assure collusion between the analytical solutions and stochastic simulations.
