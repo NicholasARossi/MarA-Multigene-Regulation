@@ -1,0 +1,2 @@
+#Raw Data
+This is the experimental data used to generate the graphs in the main text. They are  .mat files representing the quantitive values exctracted from fluorescence microscopy. The two color files are two column arrays representing the input-output relationship demeonstreated between MarA and a downstream gene. The Marginal_data folder contains the data used in figures 1C and 1F. Files named 0-5 are of Wild type, MarA$^+$, 1mM Salicylate, 3mM Salicylate, 2ug/L Cipro and 4ug/L Cipro, respectively.
