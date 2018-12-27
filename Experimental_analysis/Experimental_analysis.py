@@ -51,7 +51,6 @@ def complete(x,a,n,c,d):
 def Total_graphage(stressors,stress_titles,meta_inputs,meta_outputs,titles,nbins,best_fit=True,normalized=False):
     import scipy.integrate as integrate
     import seaborn as sns
-    import entropy_estimators as ee
     sns.set_style('ticks')
     import matplotlib
     matplotlib.rcdefaults()
@@ -581,6 +580,7 @@ if __name__ == "__main__":
         names = mylistdir(folder)
 
         names = sorted(names, key=lambda x: int(x.split('.')[0]))
+
 
         for name in names:
             mat_contents = sio.loadmat(folder + '/' + name)
